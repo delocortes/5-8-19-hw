@@ -1,0 +1,32 @@
+i:hover 
+{
+    transform: rotate(180deg);
+    color:rgb(88, 88, 88) !important;
+}
+
+h1 {
+color: white;
+font-size: 66px;
+text-align: center
+}
+
+@media (min-width: 992px) {
+    .desktop-only
+    {display: inline-block !important; color: blue}
+}
+
+@media (max-width:991px) {
+.desktop-only
+{display: none;color: red;}
+}
+
+@media (min-width: 992px) {
+.mobile-only
+    {display:none !important; color: blue}
+}
+
+@media (max-width:991px) {
+.mobile-only
+{display: inline-block;color: red;}
+}
+
